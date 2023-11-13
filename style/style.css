@@ -19,3 +19,16 @@ img {
     display: flex;
     gap: 50px;
 }
+
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-choice {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

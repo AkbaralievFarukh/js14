@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container container-wrapper">
         <h1>Камень, ножницы, бумага</h1>
-        <button onclick="chooseOption('камень')"><img src="./assets/stone.png" alt=""></button>
-        <button onclick="chooseOption('ножницы')"><img src="./assets/nojnicy.png" alt=""></button>
-        <button onclick="chooseOption('бумага')"><img src="./assets/paper.png" alt=""></button>
+        <div class="buttons-choice">
+            <button onclick="chooseOption('камень')"><img src="./assets/stone.png" alt=""></button>
+            <button onclick="chooseOption('ножницы')"><img src="./assets/nojnicy.png" alt=""></button>
+            <button onclick="chooseOption('бумага')"><img src="./assets/paper.png" alt=""></button>
+        </div>
         <p id="result"></p>
         <div class="resultImg">
             <div>
